@@ -1,6 +1,12 @@
 # Purpose
 benchmark multiple implementations of knapsack problem algorithm against each other.
 
+# Related projects/repos
+- https://github.com/hughdbrown/rods-technique
+- https://github.com/hughdbrown/knapsack_utils
+- https://github.com/hughdbrown/branch-and-bound
+- https://github.com/hughdbrown/exhaustive-search
+- https://github.com/hughdbrown/dynamic-programming
 
 # Results
 The code drops out the slowest algorithm on each test iteration. The amount of data provided goes up with each test iteration.
