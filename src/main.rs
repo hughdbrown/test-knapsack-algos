@@ -27,7 +27,7 @@ fn main() {
         (&"exhaustive", &exhaustive_search, 10),
         (&"branch", &branch_and_bound, 28),
         (&"rods", &rods_technique, 39),
-        (&"dynamic", &solve_dp, 200),
+        (&"dynamic", &solve_dp, 10000),
     ];
 
     for (i, func) in funcs.iter().enumerate() {
